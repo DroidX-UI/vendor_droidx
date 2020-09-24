@@ -57,6 +57,10 @@ endif
 PRODUCT_COPY_FILES += \
     vendor/droidx/prebuilt/common/etc/init/init.droidx-system_ext.rc:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/init/init.droidx-system_ext.rc
 
+# GMS Permissions
+PRODUCT_COPY_FILES += \
+    vendor/droidx/config/permissions/privapp-permissions-gms.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/privapp-permissions-gms.xml
+
 # Enable Android Beam on all targets
 PRODUCT_COPY_FILES += \
     vendor/droidx/config/permissions/android.software.nfc.beam.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/android.software.nfc.beam.xml
