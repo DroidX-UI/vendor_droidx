@@ -16,7 +16,7 @@
 # -----------------------------------------------------------------
 # Lineage OTA update package
 
-DROIDX_TARGET_PACKAGE := $(PRODUCT_OUT)/lineage-$(DROIDX_VERSION).zip
+DROIDX_TARGET_PACKAGE := $(PRODUCT_OUT)/droidx-$(DROIDX_VERSION).zip
 
 SHA256 := prebuilts/build-tools/path/$(HOST_PREBUILT_TAG)/sha256sum
 
