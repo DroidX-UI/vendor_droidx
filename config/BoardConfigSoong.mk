@@ -52,7 +52,8 @@ SOONG_CONFIG_droidxGlobalVars += \
     uses_egl_display_array \
     uses_oplus_camera \
     uses_nothing_camera \
-    include_miui_camera
+    include_miui_camera \
+    uses_miui_camera
 
 SOONG_CONFIG_NAMESPACES += droidxNvidiaVars
 SOONG_CONFIG_droidxNvidiaVars += \
@@ -84,6 +85,7 @@ SOONG_CONFIG_droidxQcomVars_supports_extended_compress_format := $(AUDIO_FEATURE
 SOONG_CONFIG_droidxQcomVars_uses_pre_uplink_features_netmgrd := $(TARGET_USES_PRE_UPLINK_FEATURES_NETMGRD)
 SOONG_CONFIG_droidxGlobalVars_uses_oplus_camera := $(TARGET_USES_OPLUS_CAMERA)
 SOONG_CONFIG_droidxGlobalVars_uses_nothing_camera := $(TARGET_USES_NOTHING_CAMERA)
+SOONG_CONFIG_droidxGlobalVars_uses_miui_camera := $(TARGET_USES_MIUI_CAMERA)
 SOONG_CONFIG_droidxGlobalVars_include_miui_camera := $(TARGET_INCLUDES_MIUI_CAMERA)
 
 # Set default values
