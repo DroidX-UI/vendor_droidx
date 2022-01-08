@@ -221,11 +221,6 @@ PRODUCT_PACKAGES += \
     ThemePicker \
     ThemesStub
 
-include vendor/droidx/config/version.mk
-include vendor/droidx/config/bootanimation.mk
-include vendor/droidx/config/telephony.mk
-include vendor/droidx/config/fonts.mk
-
 # ParallelSpace
 PRODUCT_PACKAGES += \
     ParallelSpace
@@ -253,3 +248,9 @@ PRODUCT_PACKAGES += \
 
 #BCR
 $(call inherit-product, vendor/bcr/bcr.mk)
+
+include vendor/droidx/config/version.mk
+include vendor/droidx/config/bootanimation.mk
+include vendor/droidx/config/telephony.mk
+include vendor/droidx/config/fonts.mk
+include vendor/droidx/config/themes.mk
