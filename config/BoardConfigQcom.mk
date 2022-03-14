@@ -70,7 +70,8 @@ SOONG_CONFIG_qtidisplay += \
     default \
     var1 \
     var2 \
-    var3
+    var3  \
+    udfps
 
 # Set default values for qtidisplay config
 SOONG_CONFIG_qtidisplay_drmpp ?= false
