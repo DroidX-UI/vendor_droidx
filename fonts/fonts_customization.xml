@@ -171,7 +171,7 @@
   </family>
   <alias name="zilla-slab-semi-bold" to="zilla-slab-medium" weight="600" />
 
-  <family customizationType="new-named-family" name="lustria">-->
+  <family customizationType="new-named-family" name="lustria">
     <font weight="400" style="normal">Lustria-Regular.ttf</font>
   </family>
   <alias name="lustria" to="lustria" weight="400"/>
@@ -258,4 +258,173 @@
     <alias name="op-sans-regular" to="op-sans" weight="400" />
     <alias name="op-sans-medium" to="op-sans" weight="500" />
     <alias name="op-sans-bold" to="op-sans" weight="700" />
+    
+    <family customizationType="new-named-family" name="opposans">
+    <font weight="100" style="normal">OppoSans-En-Regular.ttf
+      <axis tag="ital" stylevalue="0" />
+      <axis tag="wdth" stylevalue="100" />
+      <axis tag="wght" stylevalue="250" />
+    </font>
+    <font weight="200" style="normal">OppoSans-En-Regular.ttf
+      <axis tag="ital" stylevalue="0" />
+      <axis tag="wdth" stylevalue="100" />
+      <axis tag="wght" stylevalue="350" />
+    </font>
+    <font weight="300" style="normal">OppoSans-En-Regular.ttf
+      <axis tag="ital" stylevalue="0" />
+      <axis tag="wdth" stylevalue="100" />
+      <axis tag="wght" stylevalue="450" />
+    </font>
+    <font weight="400" style="normal">OppoSans-En-Regular.ttf
+      <axis tag="ital" stylevalue="0" />
+      <axis tag="wdth" stylevalue="100" />
+      <axis tag="wght" stylevalue="550" />
+    </font>
+    <font weight="500" style="normal">OppoSans-En-Regular.ttf
+      <axis tag="ital" stylevalue="0" />
+      <axis tag="wdth" stylevalue="100" />
+      <axis tag="wght" stylevalue="620" />
+    </font>
+    <font weight="600" style="normal">OppoSans-En-Regular.ttf
+      <axis tag="ital" stylevalue="0" />
+      <axis tag="wdth" stylevalue="100" />
+      <axis tag="wght" stylevalue="690" />
+    </font>
+    <font weight="700" style="normal">OppoSans-En-Regular.ttf
+      <axis tag="ital" stylevalue="0" />
+      <axis tag="wdth" stylevalue="100" />
+      <axis tag="wght" stylevalue="760" />
+    </font>
+    <font weight="800" style="normal">OppoSans-En-Regular.ttf
+      <axis tag="ital" stylevalue="0" />
+      <axis tag="wdth" stylevalue="100" />
+      <axis tag="wght" stylevalue="830" />
+    </font>
+    <font weight="900" style="normal">OppoSans-En-Regular.ttf
+      <axis tag="ital" stylevalue="0" />
+      <axis tag="wdth" stylevalue="100" />
+      <axis tag="wght" stylevalue="900" />
+    </font>
+    <font weight="100" style="italic">OppoSans-En-Regular.ttf
+      <axis tag="ital" stylevalue="1" />
+      <axis tag="wdth" stylevalue="100" />
+      <axis tag="wght" stylevalue="250" />
+    </font>
+    <font weight="200" style="italic">OppoSans-En-Regular.ttf
+      <axis tag="ital" stylevalue="1" />
+      <axis tag="wdth" stylevalue="100" />
+      <axis tag="wght" stylevalue="350" />
+    </font>
+    <font weight="300" style="italic">OppoSans-En-Regular.ttf
+      <axis tag="ital" stylevalue="1" />
+      <axis tag="wdth" stylevalue="100" />
+      <axis tag="wght" stylevalue="450" />
+    </font>
+    <font weight="400" style="italic">OppoSans-En-Regular.ttf
+      <axis tag="ital" stylevalue="1" />
+      <axis tag="wdth" stylevalue="100" />
+      <axis tag="wght" stylevalue="550" />
+    </font>
+    <font weight="500" style="italic">OppoSans-En-Regular.ttf
+      <axis tag="ital" stylevalue="1" />
+      <axis tag="wdth" stylevalue="100" />
+      <axis tag="wght" stylevalue="620" />
+    </font>
+    <font weight="600" style="italic">OppoSans-En-Regular.ttf
+      <axis tag="ital" stylevalue="1" />
+      <axis tag="wdth" stylevalue="100" />
+      <axis tag="wght" stylevalue="690" />
+    </font>
+    <font weight="700" style="italic">OppoSans-En-Regular.ttf
+      <axis tag="ital" stylevalue="1" />
+      <axis tag="wdth" stylevalue="100" />
+      <axis tag="wght" stylevalue="760" />
+    </font>
+    <font weight="800" style="italic">OppoSans-En-Regular.ttf
+      <axis tag="ital" stylevalue="1" />
+      <axis tag="wdth" stylevalue="100" />
+      <axis tag="wght" stylevalue="830" />
+    </font>
+    <font weight="900" style="italic">OppoSans-En-Regular.ttf
+      <axis tag="ital" stylevalue="1" />
+      <axis tag="wdth" stylevalue="100" />
+      <axis tag="wght" stylevalue="900" />
+    </font>
+  </family>
+  <alias name="opposans-medium" to="opposans" weight="500" />
+  
+  <family customizationType="new-named-family" name="recursive">
+    <font weight="500" style="normal">Recursive-VF.ttf
+        <axis tag="wght" stylevalue="500"/>
+    </font>
+    <font weight="600" style="normal">Recursive-VF.ttf
+        <axis tag="wght" stylevalue="600"/>
+    </font>
+    <font weight="700" style="normal">Recursive-VF.ttf
+        <axis tag="wght" stylevalue="700"/>
+    </font>
+    <font weight="800" style="normal">Recursive-VF.ttf
+        <axis tag="wght" stylevalue="800"/>
+    </font>
+    </family>
+    <alias name="recursive-sans-casual-medium" to="recursive-sans-casual" weight="700" />
+
+    <family customizationType="new-named-family" name="misans">
+    <font weight="300" style="normal">MiLanProVF.ttf
+        <axis tag="wght" stylevalue="300"/>
+    </font>
+    <font weight="400" style="normal">MiLanProVF.ttf
+        <axis tag="wght" stylevalue="400"/>
+    </font>
+    <font weight="500" style="normal">MiLanProVF.ttf
+        <axis tag="wght" stylevalue="500"/>
+    </font>
+    <font weight="600" style="normal">MiLanProVF.ttf
+        <axis tag="wght" stylevalue="600"/>
+    </font>
+    </family>
+    <alias name="misans-medium" to="misans" weight="400" />
+
+    <family customizationType="new-named-family" name="robotoflex">
+        <font weight="400" style="normal">RobotoFlex.ttf</font>
+    </family>
+    <alias name="robotoflex-semi-bold" to="robotoflex" weight="600" />
+    <alias name="robotoflex-bold" to="robotoflex" weight="700" />
+    <alias name="times" to="robotoflex" />
+    <alias name="times new roman" to="robotoflex" />
+    <alias name="palatino" to="robotoflex" />
+    <alias name="georgia" to="robotoflex" />
+    <alias name="baskerville" to="robotoflex" />
+    <alias name="goudy" to="robotoflex" />
+    <alias name="fantasy" to="robotoflex" />
+    <alias name="ITC Stone Serif" to="robotoflex" />
+
+    <family customizationType="new-named-family" name="poppins">
+        <font weight="400" style="normal">Poppins-Regular.ttf</font>
+    </family>
+    <alias name="poppins-semi-bold" to="poppins" weight="600" />
+    <alias name="poppins-bold" to="poppins" weight="700" />
+    <alias name="times" to="poppins" />
+    <alias name="times new roman" to="poppins" />
+    <alias name="palatino" to="poppins" />
+    <alias name="georgia" to="poppins" />
+    <alias name="baskerville" to="poppins" />
+    <alias name="goudy" to="poppins" />
+    <alias name="fantasy" to="poppins" />
+    <alias name="ITC Stone Serif" to="poppins" />
+
+    <family customizationType="new-named-family" name="bellota">
+        <font weight="400" style="normal">Bellota.ttf</font>
+        <font weight="700" style="normal">Bellota-Bold.ttf</font>
+    </family>
+    <alias name="bellota-semi-bold" to="bellota" weight="600" />
+    <alias name="bellota-bold" to="bellota" weight="700" />
+    <alias name="times" to="bellota" />
+    <alias name="times new roman" to="bellota" />
+    <alias name="palatino" to="bellota" />
+    <alias name="georgia" to="bellota" />
+    <alias name="baskerville" to="bellota" />
+    <alias name="goudy" to="bellota" />
+    <alias name="fantasy" to="bellota" />
+    <alias name="ITC Stone Serif" to="bellota" />
 </fonts-modification>

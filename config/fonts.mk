@@ -63,8 +63,14 @@ PRODUCT_PACKAGES += \
     FontLinotteSourceOverlay \
     FontManropeOverlay \
     FontOnePlusSansOverlay \
+	FontOppoSansOverlay \
+	FontBellotaSourceOverlay \
+	FontMiSansOverlay \
+	FontPoppinsSourceOverlay \
+	FontRecursiveLinearOverlay \
+    FontRobotoFlexOverlay \
     FontOneplusSlateSourceOverlay
-
+    
 PRODUCT_COPY_FILES += \
     $(call find-copy-subdir-files,*,vendor/droidx/fonts/prebuilt,$(TARGET_COPY_OUT_PRODUCT)/fonts) \
     vendor/droidx/fonts/fonts_customization.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/fonts_customization.xml
