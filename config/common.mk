@@ -216,5 +216,9 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     TouchGestures
 
+# Immersive Navigation
+PRODUCT_PACKAGES += \
+    ImmersiveNavigationOverlay
+    
 #BCR
 $(call inherit-product, vendor/bcr/bcr.mk)
