@@ -4,22 +4,21 @@ ADDITIONAL_SYSTEM_PROPERTIES += \
     ro.build.fingerprint=$(BUILD_FINGERPRINT)
 endif
 
-# LineageOS System Version
+# DroidX-UI System Version
 ADDITIONAL_SYSTEM_PROPERTIES += \
-    ro.lineage.version=$(LINEAGE_VERSION) \
-    ro.lineage.releasetype=$(LINEAGE_BUILDTYPE) \
-    ro.lineage.build.version=$(PRODUCT_VERSION_MAJOR).$(PRODUCT_VERSION_MINOR) \
-    ro.modversion=$(LINEAGE_VERSION) \
-    ro.lineagelegal.url=https://lineageos.org/legal
+    ro.droidx.version=$(DROIDX_VERSION) \
+    ro.droidx.releasetype=$(DROIDX_BUILDTYPE) \
+    ro.droidx.build.version=$(PRODUCT_VERSION_MAJOR).$(PRODUCT_VERSION_MINOR) \
+    ro.modversion=$(DROIDX_VERSION) \
 
-# LineageOS Platform Display Version
+# DroidX-UI Platform Display Version
 ADDITIONAL_SYSTEM_PROPERTIES += \
-    ro.lineage.display.version=$(LINEAGE_DISPLAY_VERSION)
+    ro.droidx.display.version=$(DROIDX_DISPLAY_VERSION)
 
-# LineageOS Platform SDK Version
+# DroidX-UI Platform SDK Version
 ADDITIONAL_SYSTEM_PROPERTIES += \
-    ro.lineage.build.version.plat.sdk=$(LINEAGE_PLATFORM_SDK_VERSION)
+    ro.droidx.build.version.plat.sdk=$(DROIDX_PLATFORM_SDK_VERSION)
 
-# LineageOS Platform Internal Version
+# DroidX-UI Platform Internal Version
 ADDITIONAL_SYSTEM_PROPERTIES += \
-    ro.lineage.build.version.plat.rev=$(LINEAGE_PLATFORM_REV)
+    ro.droidx.build.version.plat.rev=$(DROIDX_PLATFORM_REV)
