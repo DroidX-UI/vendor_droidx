@@ -17,10 +17,15 @@ ifndef DROIDX_BUILDTYPE
     endif
 endif
 
-# Filter out random types, so it'll reset to UNOFFICIAL
-ifeq ($(filter OFFICIAL,$(DROIDX_BUILDTYPE)),)
-    DROIDX_BUILDTYPE := UNOFFICIAL
-    DROIDX_EXTRAVERSION :=
+
+# Check Official
+ifeq ($(DROIDX_BUILD_TYPE), OFFICIAL)
+  LIST = $(shell cat vendor/droidx/droidx.devices)
+    ifeq ($(filter $(DROIDX_BUILD), $(LIST)), $(DROIDX_BUILD))
+      DROIDX_BUILD_TYPE := OFFICIAL
+    else 
+      DROIDX_BUILD_TYPE := UNOFFICIAL
+    endif
 endif
 
 ifeq ($(DROIDX_BUILDTYPE), UNOFFICIAL)
