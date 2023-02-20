@@ -185,3 +185,4 @@ PRODUCT_EXTRA_RECOVERY_KEYS += \
 
 include vendor/droidx/config/version.mk
 include vendor/droidx/config/bootanimation.mk
+include vendor/droidx/config/telephony.mk
