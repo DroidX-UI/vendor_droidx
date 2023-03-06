@@ -6,7 +6,7 @@ endif
 
 # DroidX-UI System Version
 ADDITIONAL_SYSTEM_PROPERTIES += \
-    ro.droidx.version=$(DROIDX_VERSION) \
+    ro.droidx.version=$(DROIDX_DISPLAY_VERSION_CODENAME) \
     ro.droidx.releasetype=$(DROIDX_BUILDTYPE) \
     ro.droidx.build.version=$(PRODUCT_VERSION_MAJOR).$(PRODUCT_VERSION_MINOR) \
     ro.modversion=$(DROIDX_VERSION) \
