@@ -24,10 +24,8 @@ endif
 # Disable ADB authentication
 PRODUCT_SYSTEM_DEFAULT_PROPERTIES += ro.adb.secure=0
 
-ifeq ($(TARGET_BUILD_VARIANT),eng)
-# Disable extra StrictMode features on all non-engineering builds
 PRODUCT_SYSTEM_DEFAULT_PROPERTIES += persist.sys.strictmode.disable=false
-endif
+
 
 # Backup Tool
 PRODUCT_COPY_FILES += \
