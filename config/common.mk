@@ -181,6 +181,10 @@ PRODUCT_PACKAGES += \
 
 PRODUCT_EXTRA_RECOVERY_KEYS += \
     vendor/droidx/build/target/product/security/droidx
+    
+# Themepicker
+PRODUCT_PACKAGES += \
+    ThemePicker
 
 include vendor/droidx/config/version.mk
 include vendor/droidx/config/bootanimation.mk
