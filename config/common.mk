@@ -173,7 +173,7 @@ PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
     dalvik.vm.systemuicompilerfilter=speed
 
 PRODUCT_PACKAGE_OVERLAYS += \
-    vendor/droidx/overlay/common \
+    vendor/droidx/overlay/common 
 
 PRODUCT_PACKAGES += \
     NetworkStackOverlay \
