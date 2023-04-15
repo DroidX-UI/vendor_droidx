@@ -64,7 +64,6 @@ PRODUCT_PACKAGES += \
     FontManropeOverlay \
     FontOnePlusSansOverlay \
 	FontOppoSansOverlay \
-	FontBellotaSourceOverlay \
 	FontMiSansOverlay \
 	FontPoppinsSourceOverlay \
 	FontRecursiveLinearOverlay \

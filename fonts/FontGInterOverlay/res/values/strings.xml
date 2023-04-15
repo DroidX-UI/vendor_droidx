@@ -17,6 +17,6 @@
 <resources>
 
     <!-- Google Sans (Inter) overlay -->
-    <string name="font_google_sans_inter_overlay" translatable="false">Google Sans (Inter)</string>
+    <string name="font_google_sans_inter_overlay" translatable="false">Inter</string>
 
 </resources>
