@@ -412,19 +412,4 @@
     <alias name="goudy" to="poppins" />
     <alias name="fantasy" to="poppins" />
     <alias name="ITC Stone Serif" to="poppins" />
-
-    <family customizationType="new-named-family" name="bellota">
-        <font weight="400" style="normal">Bellota.ttf</font>
-        <font weight="700" style="normal">Bellota-Bold.ttf</font>
-    </family>
-    <alias name="bellota-semi-bold" to="bellota" weight="600" />
-    <alias name="bellota-bold" to="bellota" weight="700" />
-    <alias name="times" to="bellota" />
-    <alias name="times new roman" to="bellota" />
-    <alias name="palatino" to="bellota" />
-    <alias name="georgia" to="bellota" />
-    <alias name="baskerville" to="bellota" />
-    <alias name="goudy" to="bellota" />
-    <alias name="fantasy" to="bellota" />
-    <alias name="ITC Stone Serif" to="bellota" />
 </fonts-modification>
