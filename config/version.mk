@@ -7,17 +7,6 @@ else
     DROIDX_BUILD_DATE := $(shell date -u +%Y%m%d)
 endif
 
-# Set DROIDX_BUILDTYPE from the env RELEASE_TYPE, for jenkins compat
-
-ifndef DROIDX_BUILDTYPE
-    ifdef RELEASE_TYPE
-        # Starting with "DROIDX_" is optional
-        RELEASE_TYPE := $(shell echo $(RELEASE_TYPE) | sed -e 's|^DROIDX_||g')
-        DROIDX_BUILDTYPE := $(RELEASE_TYPE)
-    endif
-endif
-
-
 # Check Official
 ifeq ($(DROIDX_BUILD_TYPE), OFFICIAL)
   LIST = $(shell cat vendor/droidx/droidx.devices)
@@ -28,13 +17,7 @@ ifeq ($(DROIDX_BUILD_TYPE), OFFICIAL)
     endif
 endif
 
-ifeq ($(DROIDX_BUILDTYPE), UNOFFICIAL)
-    ifneq ($(TARGET_UNOFFICIAL_BUILD_ID),)
-        DROIDX_EXTRAVERSION := -$(TARGET_UNOFFICIAL_BUILD_ID)
-    endif
-endif
-
-DROIDX_VERSION_SUFFIX := $(DROIDX_BUILD_DATE)-$(DROIDX_BUILDTYPE)$(DROIDX_EXTRAVERSION)-$(DROIDX_BUILD)
+DROIDX_VERSION_SUFFIX := $(DROIDX_BUILD_DATE)-$(DROIDX_BUILD_TYPE)-$(DROIDX_BUILD)
 
 # Internal version
 DROIDX_VERSION := $(PRODUCT_VERSION_MAJOR).$(PRODUCT_VERSION_MINOR)-$(DROIDX_VERSION_SUFFIX)
