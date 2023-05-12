@@ -15,11 +15,7 @@
 
 # -----------------------------------------------------------------
 # Lineage OTA update package
-ifeq ($(DROIDX_ZIP_TYPE), Gapps)
-	DROIDX_TARGET_PACKAGE := $(PRODUCT_OUT)/droidx-$(DROIDX_VERSION)-Gapps.zip
-else 
-    DROIDX_TARGET_PACKAGE := $(PRODUCT_OUT)/droidx-$(DROIDX_VERSION)-Vanilla.zip
-endif
+DROIDX_TARGET_PACKAGE := $(PRODUCT_OUT)/droidx-$(DROIDX_VERSION)-$(DROIDX_ZIP_TYPE).zip
 
 SHA256 := prebuilts/build-tools/path/$(HOST_PREBUILT_TAG)/sha256sum
 
