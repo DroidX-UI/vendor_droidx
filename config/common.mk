@@ -5,12 +5,16 @@ PRODUCT_BRAND ?= DroidX-UI
 
 PRODUCT_BUILD_PROP_OVERRIDES += BUILD_UTC_DATE=0
 
-DROIDX_ZIP_TYPE := Vanilla
+DROIDX_ZIP_TYPE ?= Vanilla
 
 # Gapps
-ifeq ($(DROIDX_GAPPS), true)
+ifeq ($(DROIDX_GAPPS), core)
     $(call inherit-product, vendor/gapps/common/common-vendor.mk)
-    DROIDX_ZIP_TYPE := Gapps
+    DROIDX_ZIP_TYPE := CoreGapps
+ifeq ($(DROIDX_GAPPS), full)
+    $(call inherit-product, vendor/gms/gms_full.mk)
+    DROIDX_ZIP_TYPE := FullGapps
+endif
 endif
 
 ifeq ($(PRODUCT_GMS_CLIENTID_BASE),)
