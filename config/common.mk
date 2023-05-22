@@ -224,6 +224,10 @@ PRODUCT_PACKAGES += \
 # Immersive Navigation
 PRODUCT_PACKAGES += \
     ImmersiveNavigationOverlay
-    
+
+# Qs Styles
+PRODUCT_PACKAGES += \
+    RoundQSOverlay
+
 #BCR
 $(call inherit-product, vendor/bcr/bcr.mk)
