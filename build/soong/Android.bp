@@ -229,6 +229,23 @@ surfaceflinger_udfps_lib {
 }
 
 soong_config_module_type {
+    name: "target_alternative_futex_waiters",
+    module_type: "cc_defaults",
+    config_namespace: "droidxGlobalVars",
+    bool_variables: ["target_alternative_futex_waiters"],
+    properties: ["cppflags"],
+}
+
+target_alternative_futex_waiters {
+    name: "target_alternative_futex_waiters_defaults",
+    soong_config_variables: {
+        target_alternative_futex_waiters: {
+            cppflags: ["-DTARGET_ALTERNATIVE_FUTEX_WAITERS"],
+        },
+    },
+}
+
+soong_config_module_type {
     name: "trust_usb_control",
     module_type: "cc_defaults",
     config_namespace: "droidxGlobalVars",
