@@ -113,10 +113,6 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     vendor/droidx/prebuilt/common/etc/init/init.custom-system_ext.rc:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/init/init.custom-system_ext.rc
 
-# App lock permission
-PRODUCT_COPY_FILES += \
-    vendor/droidx/config/permissions/privapp-permissions-settings.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/privapp-permissions-settings.xml
-
 # Enable SIP+VoIP on all targets
 PRODUCT_COPY_FILES += \
     frameworks/native/data/etc/android.software.sip.voip.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/android.software.sip.voip.xml
@@ -156,9 +152,6 @@ PRODUCT_RESTRICT_VENDOR_FILES := false
 TARGET_SUPPORTS_GOOGLE_RECORDER ?= true
 TARGET_INCLUDE_STOCK_ARCORE ?= true
 TARGET_SUPPORTS_CALL_RECORDING ?= true
-TARGET_USE_GOOGLE_TELEPHONY ?= true
-TARGET_USE_MOTO_CALCULATOR ?= false
-TARGET_USE_QUICKPIC ?= false
 DROIDX_VERSION_APPEND_TIME_OF_DAY ?= true
 
 # UDFPS Animations
@@ -295,6 +288,12 @@ TARGET_SUPPORTS_GOOGLE_BATTERY ?= false
 ifeq ($(TARGET_SUPPORTS_GOOGLE_BATTERY), false)
 PRODUCT_PACKAGES += \
     TurboAdapter_NoBatt
+
+PRODUCT_COPY_FILES += \
+    vendor/droidx/prebuilt/system_ext/lib64/libpowerstatshaldataprovider.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libpowerstatshaldataprovider.so
+
+PRODUCT_PACKAGES += \
+    LibPowerStatsSymLink_NoBatt
 endif
 
 # SystemUI
