@@ -290,6 +290,13 @@ endif
 PRODUCT_PRODUCT_PROPERTIES += \
     ro.input.video_enabled=false
 
+TARGET_SUPPORTS_GOOGLE_BATTERY ?= false
+# Include TurboAdapter without Google Battery support
+ifeq ($(TARGET_SUPPORTS_GOOGLE_BATTERY), false)
+PRODUCT_PACKAGES += \
+    TurboAdapter_NoBatt
+endif
+
 # SystemUI
 PRODUCT_DEXPREOPT_SPEED_APPS += \
     SystemUI \
