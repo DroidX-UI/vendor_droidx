@@ -71,6 +71,28 @@ aapt_version_code {
     },
 }
 
+
+soong_config_module_type {
+    name: "camera_uses_newer_hidl_override_format",
+    module_type: "cc_defaults",
+    config_namespace: "droidxGlobalVars",
+    bool_variables: ["camera_uses_newer_hidl_override_format"],
+    properties: [
+        "cflags",
+        "cppflags",
+    ],
+}
+
+camera_uses_newer_hidl_override_format {
+    name: "camera_uses_newer_hidl_override_format_defaults",
+    soong_config_variables: {
+        camera_uses_newer_hidl_override_format: {
+            cflags: ["-DTARGET_CAMERA_USES_NEWER_HIDL_OVERRIDE_FORMAT"],
+            cppflags: ["-DTARGET_CAMERA_USES_NEWER_HIDL_OVERRIDE_FORMAT"],
+        },
+    },
+}
+
 soong_config_module_type {
     name: "gralloc_10_usage_bits",
     module_type: "cc_defaults",
@@ -315,7 +337,7 @@ surfaceflinger_qcom_extensions {
 soong_config_module_type {
     name: "uses_oplus_camera",
     module_type: "cc_defaults",
-    config_namespace: "customGlobalVars",
+    config_namespace: "droidxGlobalVars",
     bool_variables: ["uses_oplus_camera"],
     properties: ["cppflags"],
 }
@@ -331,7 +353,7 @@ uses_oplus_camera {
 soong_config_module_type {
     name: "uses_nothing_camera",
     module_type: "cc_defaults",
-    config_namespace: "customGlobalVars",
+    config_namespace: "droidxGlobalVars",
     bool_variables: ["uses_nothing_camera"],
     properties: ["cppflags"],
 }
