@@ -7,6 +7,9 @@ else
     DROIDX_BUILD_DATE := $(shell date -u +%Y%m%d)
 endif
 
+# versioning
+DROIDX_BUILD_TYPE ?= UNOFFICIAL
+
 # Check Official
 ifeq ($(DROIDX_BUILD_TYPE), OFFICIAL)
   LIST = $(shell cat vendor/droidx/droidx.devices)
