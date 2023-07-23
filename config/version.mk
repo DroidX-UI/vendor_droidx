@@ -9,6 +9,8 @@ endif
 
 # versioning
 DROIDX_BUILD_TYPE ?= UNOFFICIAL
+DROIDX_ZIP_TYPE ?= Vanilla
+DROIDX_VARIANT := $(DROIDX_ZIP_TYPE)
 
 # Check Official
 ifeq ($(DROIDX_BUILD_TYPE), OFFICIAL)
