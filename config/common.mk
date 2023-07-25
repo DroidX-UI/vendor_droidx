@@ -9,7 +9,7 @@ DROIDX_ZIP_TYPE := Vanilla
 
 # Gapps
 ifeq ($(DROIDX_GAPPS), true)
-    $(call inherit-product, vendor/gms/gms_full.mk)
+    $(call inherit-product, vendor/gms/products/gms.mk)
     DROIDX_ZIP_TYPE := Gapps
 endif
 
