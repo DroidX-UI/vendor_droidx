@@ -203,3 +203,6 @@ PRODUCT_PACKAGES += \
 # Aperture
 PRODUCT_PACKAGES += \
     Aperture
+
+#BCR
+$(call inherit-product, vendor/bcr/bcr.mk)
