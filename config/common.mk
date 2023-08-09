@@ -208,5 +208,9 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     Aperture
 
+# TouchGestures
+PRODUCT_PACKAGES += \
+    TouchGestures
+
 #BCR
 $(call inherit-product, vendor/bcr/bcr.mk)
