@@ -208,13 +208,13 @@ include vendor/droidx/config/fonts.mk
 PRODUCT_PACKAGES += \
     ParallelSpace
 
-# Aperture
+# Apps
 PRODUCT_PACKAGES += \
-    Aperture
-
-# TouchGestures
-PRODUCT_PACKAGES += \
-    TouchGestures
+    Aperture \
+    TouchGestures \
+    Etar \
+    Recorder \
+    ExactCalculator
 
 # Immersive Navigation
 PRODUCT_PACKAGES += \
