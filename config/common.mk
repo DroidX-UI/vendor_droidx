@@ -219,7 +219,8 @@ PRODUCT_PACKAGES += \
     TouchGestures \
     Etar \
     Recorder \
-    ExactCalculator
+    ExactCalculator \
+    DroidXUIWallpaperStub
 
 # Immersive Navigation
 PRODUCT_PACKAGES += \
