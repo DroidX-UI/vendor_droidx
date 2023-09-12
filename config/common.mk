@@ -228,6 +228,10 @@ PRODUCT_PACKAGES += \
     ExactCalculator \
     DroidXUIWallpaperStub
 
+# Repainter integration
+PRODUCT_PACKAGES += \
+    RepainterServicePriv
+
 # Immersive Navigation
 PRODUCT_PACKAGES += \
     ImmersiveNavigationOverlay
