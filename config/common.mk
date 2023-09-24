@@ -241,7 +241,8 @@ PRODUCT_PACKAGES += \
     Etar \
     Recorder \
     ExactCalculator \
-    DroidXUIWallpaperStub
+    DroidXUIWallpaperStub \
+    OmniJaws
 
 # Repainter integration
 PRODUCT_PACKAGES += \
