@@ -1,2 +1,2 @@
-# Include LineageOS versions
-include $(TOPDIR)vendor/lineage/build/core/main_version.mk
+# Include DroidX-UI versions
+include $(TOPDIR)vendor/droidx/build/core/main_version.mk
