@@ -1,16 +1,16 @@
 PRODUCT_VERSION_MAJOR = 1
 PRODUCT_VERSION_MINOR = 6
 
-ifeq ($(DROIDX_VERSION_APPEND_TIME_OF_DAY),true)
-    DROIDX_BUILD_DATE := $(shell date -u +%Y%m%d_%H%M%S)
-else
-    DROIDX_BUILD_DATE := $(shell date -u +%Y%m%d)
-endif
-
 # versioning
 DROIDX_CODENAME := ArcLight
 DROIDX_BUILD_TYPE ?= UNOFFICIAL
 DROIDX_VARIANT := $(DROIDX_ZIP_TYPE)
+DROIDX_DATE_YEAR := $(shell date -u +%Y)
+DROIDX_DATE_MONTH := $(shell date -u +%m)
+DROIDX_DATE_DAY := $(shell date -u +%d)
+DROIDX_DATE_HOUR := $(shell date -u +%H)
+DROIDX_DATE_MINUTE := $(shell date -u +%M)
+DROIDX_BUILD_DATE := $(DROIDX_DATE_YEAR)$(DROIDX_DATE_MONTH)$(DROIDX_DATE_DAY)-$(DROIDX_DATE_HOUR)$(DROIDX_DATE_MINUTE)
 
 # Check Official
 ifeq ($(DROIDX_BUILD_TYPE), OFFICIAL)
@@ -37,6 +37,7 @@ DROIDX_DISPLAY_VERSION_CODENAME := 13-ArcLight
 PRODUCT_PRODUCT_PROPERTIES += \
   ro.droidx.version=$(DROIDX_DISPLAY_VERSION_CODENAME) \
   ro.droidx.codename=$(DROIDX_CODENAME) \
+  ro.droidx.build.date=$(DROIDX_BUILD_DATE) \
   ro.droidx.releasevarient=$(DROIDX_ZIP_TYPE) \
   ro.droidx.releasetype=$(DROIDX_BUILD_TYPE) \
   ro.droidx.build.version=$(PRODUCT_VERSION_MAJOR).$(PRODUCT_VERSION_MINOR) \
