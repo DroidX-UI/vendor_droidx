@@ -1,4 +1,5 @@
 <fonts-modification version="1">
+  <!-- Google Sans Font -->
   <family customizationType="new-named-family" name="google-sans">
     <font weight="400" style="normal">GoogleSans-Regular.ttf
       <axis tag="GRAD" stylevalue="0"/>
@@ -42,6 +43,7 @@
     </font>
   </family>
 
+  <!-- Google Sans Flex Font -->
   <family customizationType="new-named-family" name="google-sans-flex">
     <font weight="100" style="normal">GoogleSansFlex-Regular.ttf
     </font>
@@ -63,6 +65,7 @@
     </font>
   </family>
 
+  <!-- Google Sans Medium Font -->
   <family customizationType="new-named-family" name="google-sans-medium">
     <font weight="500" style="normal">GoogleSans-Regular.ttf
       <axis tag="GRAD" stylevalue="0"/>
@@ -71,10 +74,12 @@
     </font>
   </family>
 
+  <!-- Google Sans Clock Font -->
   <family customizationType="new-named-family" name="google-sans-clock">
     <font>GoogleSansClock-Regular.ttf</font>
   </family>
 
+    <!-- Google Sans Bold Font -->
   <family customizationType="new-named-family" name="google-sans-bold">
     <font weight="700" style="normal">GoogleSans-Regular.ttf
       <axis tag="GRAD" stylevalue="0"/>
@@ -83,6 +88,7 @@
     </font>
   </family>
 
+  <!-- Google Sans Text Font -->
   <family customizationType="new-named-family" name="google-sans-text">
     <font weight="400" style="normal">GoogleSans-Regular.ttf
       <axis tag="GRAD" stylevalue="0"/>
@@ -126,6 +132,7 @@
     </font>
   </family>
 
+  <!-- Google Sans Text Medium Font -->
   <family customizationType="new-named-family" name="google-sans-text-medium">
     <font weight="500" style="normal">GoogleSans-Regular.ttf
       <axis tag="GRAD" stylevalue="0"/>
@@ -134,6 +141,7 @@
     </font>
   </family>
 
+  <!-- Google Text Bold Font -->
   <family customizationType="new-named-family" name="google-sans-text-bold">
     <font weight="700" style="normal">GoogleSans-Regular.ttf
       <axis tag="GRAD" stylevalue="0"/>
@@ -142,6 +150,7 @@
     </font>
   </family>
 
+  <!-- Google Sans Text Italic Font -->
   <family customizationType="new-named-family" name="google-sans-text-italic">
     <font weight="400" style="italic">GoogleSans-Italic.ttf
       <axis tag="GRAD" stylevalue="0"/>
@@ -150,6 +159,7 @@
     </font>
   </family>
 
+  <!-- Google Sans Text Medium Italic Font -->
   <family customizationType="new-named-family" name="google-sans-text-medium-italic">
     <font weight="500" style="italic">GoogleSans-Italic.ttf
       <axis tag="GRAD" stylevalue="0"/>
@@ -158,6 +168,7 @@
     </font>
   </family>
 
+  <!-- Google Sans Text Bold Italic -->
   <family customizationType="new-named-family" name="google-sans-text-bold-italic">
     <font weight="700" style="italic">GoogleSans-Italic.ttf
       <axis tag="GRAD" stylevalue="0"/>
@@ -166,6 +177,7 @@
     </font>
   </family>
 
+  <!-- Arbutus Slab Font -->
   <family customizationType="new-named-family" name="arbutus-slab">
     <font weight="400" style="normal">ArbutusSlab-Regular.ttf</font>
   </family>
@@ -178,6 +190,7 @@
   </family>
   <alias name="lato-bold" to="lato" weight="700" />
 
+  <!-- Rubik Font -->
   <family customizationType="new-named-family" name="rubik">
     <font weight="400" style="normal">Rubik-Regular.ttf</font>
     <font weight="400" style="italic">Rubik-Italic.ttf</font>
@@ -188,6 +201,7 @@
   </family>
   <alias name="rubik-medium" to="rubik" weight="500" />
 
+  <!-- Zilla Slab Medium Font -->
   <family customizationType="new-named-family" name="zilla-slab-medium">
     <font weight="500" style="normal">ZillaSlab-Medium.ttf</font>
     <font weight="500" style="italic">ZillaSlab-MediumItalic.ttf</font>
@@ -196,16 +210,19 @@
   </family>
   <alias name="zilla-slab-semi-bold" to="zilla-slab-medium" weight="600" />
 
+  <!-- Lustria Font -->
   <family customizationType="new-named-family" name="lustria">
     <font weight="400" style="normal">Lustria-Regular.ttf</font>
   </family>
   <alias name="lustria" to="lustria" weight="400"/>
 
+  <!-- Karla Font -->
   <family customizationType="new-named-family" name="karla">
     <font weight="400" style="normal">Karla-Regular.ttf</font>
   </family>
   <alias name="karla" to="karla" weight="400"/>
 
+  <!-- Fraunces Font -->
   <family customizationType="new-named-family" name="fraunces">
     <font
       weight="400"
@@ -221,6 +238,7 @@
   <alias name="fraunces" to="fraunces" weight="400"/>
   <alias name="fraunces-semi-bold" to="fraunces" weight="600"/>
 
+  <!-- Big Shoulders Text Font -->
   <family customizationType="new-named-family" name="big-shoulders-text">
     <font weight="700" style="normal">BigShouldersText-Bold.ttf</font>
     <font weight="800" style="normal">BigShouldersText-ExtraBold.ttf</font>
@@ -228,6 +246,7 @@
   <alias name="big-shoulders-text-bold" to="big-shoulders-text" weight="700"/>
   <alias name="big-shoulders-text-extra-bold" to="big-shoulders-text" weight="800"/>
 
+  <!-- Barlow Font -->
   <family customizationType="new-named-family" name="barlow">
     <font weight="700" style="normal">Barlow-Bold.ttf</font>
     <font weight="500" style="normal">Barlow-Medium.ttf</font>
@@ -235,6 +254,7 @@
   <alias name="barlow-bold" to="barlow" weight="700"/>
   <alias name="barlow-medium" to="barlow" weight="500"/>
   
+  <!-- Manrope Font -->
   <family customizationType="new-named-family" name="manrope">
     <font weight="500" style="normal">Manrope-VF.ttf
         <axis tag="wght" stylevalue="500"/>
@@ -251,18 +271,14 @@
     </family>
     <alias name="manrope-medium" to="manrope" weight="600" />
 
-    <family customizationType="new-named-family" name="linotte">
-    <font weight="300" style="normal">Linotte.ttf</font>
-    </family>
-    <alias name="linotte-semi-bold" to="linotte" weight="600" />
-    <alias name="linotte-bold" to="linotte" weight="700" />
-
+    <!-- Oneplus Slate Font -->
     <family customizationType="new-named-family" name="oneplusslate">
     <font weight="300" style="normal">SlateFromOP-Light.ttf</font>
     <font weight="400" style="normal">SlateFromOP-Regular.ttf</font>
     </family>
     <alias name="oneplusslate-bold" to="oneplusslate" weight="600" />
 
+    <!-- OnePlus Sans Font -->
     <family customizationType="new-named-family" name="op-sans">
         <font weight="100" style="normal">OnePlusSans-Thin.ttf</font>
         <font weight="100" style="italic">OnePlusSans-ThinItalic.ttf</font>
@@ -284,6 +300,7 @@
     <alias name="op-sans-medium" to="op-sans" weight="500" />
     <alias name="op-sans-bold" to="op-sans" weight="700" />
     
+    <!-- OPPO Sans -->
     <family customizationType="new-named-family" name="opposans">
     <font weight="100" style="normal">OppoSans-En-Regular.ttf
       <axis tag="ital" stylevalue="0" />
@@ -378,6 +395,7 @@
   </family>
   <alias name="opposans-medium" to="opposans" weight="500" />
   
+  <!-- Recursive Font -->
   <family customizationType="new-named-family" name="recursive">
     <font weight="500" style="normal">Recursive-VF.ttf
         <axis tag="wght" stylevalue="500"/>
@@ -394,6 +412,7 @@
     </family>
     <alias name="recursive-sans-casual-medium" to="recursive-sans-casual" weight="700" />
 
+    <!-- Mi Sans Font -->
     <family customizationType="new-named-family" name="misans">
     <font weight="300" style="normal">MiLanProVF.ttf
         <axis tag="wght" stylevalue="300"/>
@@ -410,6 +429,7 @@
     </family>
     <alias name="misans-medium" to="misans" weight="400" />
 
+    <!-- Roboto Flex Font  -->
     <family customizationType="new-named-family" name="robotoflex">
         <font weight="400" style="normal">RobotoFlex.ttf</font>
     </family>
@@ -424,6 +444,7 @@
     <alias name="fantasy" to="robotoflex" />
     <alias name="ITC Stone Serif" to="robotoflex" />
 
+    <!-- Poppins Font -->
     <family customizationType="new-named-family" name="poppins">
         <font weight="400" style="normal">Poppins-Regular.ttf</font>
     </family>
@@ -437,4 +458,56 @@
     <alias name="goudy" to="poppins" />
     <alias name="fantasy" to="poppins" />
     <alias name="ITC Stone Serif" to="poppins" />
+
+    <!-- SamsungOne -->
+    <family customizationType="new-named-family" name="samsungone">
+        <font weight="400" style="normal">SamsungOne-400.ttf</font>
+        <font weight="700" style="normal">SamsungOne-700.ttf</font>
+    </family>
+    <alias name="samsungone-regular" to="samsungone" weight="400" />
+    <alias name="samsungone-bold" to="samsungone" weight="700" />
+
+    <!-- Nokia Pure -->
+    <family customizationType="new-named-family" name="nokiapure">
+        <font weight="400" style="normal">Nokia_Pure.ttf</font>
+    </family>
+    <alias name="nokiapure-regular" to="nokiapure" weight="400" />
+
+    <!-- SonySketch -->
+    <family customizationType="new-named-family" name="sonysketch">
+        <font weight="300" style="normal">SonySketch.ttf</font>
+    </family>
+    <alias name="sonysketch-light" to="sonysketch" weight="300" />
+
+    <!-- NothingDot -->
+    <family customizationType="new-named-family" name="pixelwars">
+        <font weight="400" style="normal" postScriptName="pixelwars">pixelwars.ttf</font>
+    </family>
+    <alias name="pixelwars" to="pixelwars" weight="400" />
+
+    <!-- Nothing Fonts -->
+    <family customizationType="new-named-family" name="NDot55">
+        <font weight="400" style="normal" postScriptName="Ndot-55">NDot55Caps.otf</font>
+    </family>
+    <family customizationType="new-named-family" name="NDot57">
+        <font weight="400" style="normal" postScriptName="Ndot-57">NDot57Caps.otf</font>
+    </family>
+    <family customizationType="new-named-family" name="NDot57-Aligned">
+        <font weight="400" style="normal" postScriptName="Ndot-57-Aligned">Ndot-57-Aligned.otf</font>
+    </family>
+    <alias name="ndot" to="NDot55" />
+    <alias name="ndot57" to="NDot57" />
+    <alias name="ndot57-align" to="NDot57-Aligned" /> 
+
+    <!-- Linotte -->
+    <family customizationType="new-named-family" name="linotte">
+        <font weight="300" style="normal">Linotte-Light.ttf</font>
+        <font weight="400" style="normal">Linotte-Regular.ttf</font>
+        <font weight="600" style="normal">Linotte-SemiBold.ttf</font>
+        <font weight="700" style="normal">Linotte-Bold.ttf</font>
+    </family>
+    <alias name="linotte-light" to="linotte" weight="300" />
+    <alias name="linotte-regular" to="linotte" weight="400" />
+    <alias name="linotte-semi-bold" to="linotte" weight="600" />
+    <alias name="linotte-bold" to="linotte" weight="700" />
 </fonts-modification>

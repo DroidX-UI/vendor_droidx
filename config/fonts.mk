@@ -62,7 +62,6 @@ PRODUCT_PACKAGES += \
     FontGInterOverlay \
     FontGoogleSansOverlay \
     FontHarmonySansOverlay \
-    FontLinotteSourceOverlay \
     FontManropeOverlay \
     FontOnePlusSansOverlay \
 	FontOppoSansOverlay \
@@ -70,7 +69,13 @@ PRODUCT_PACKAGES += \
 	FontPoppinsSourceOverlay \
 	FontRecursiveLinearOverlay \
     FontRobotoFlexOverlay \
-    FontOneplusSlateSourceOverlay
+    FontOneplusSlateSourceOverlay \
+    FontLinotteOverlay \
+    FontNothiingDotOverlay \
+    FontNothingDotHeadlineOverlay \
+    FontNokiaPureOverlay \
+    FontSonySketchOverlay \
+    FontSamsungOneOverlay
     
 PRODUCT_COPY_FILES += \
     $(call find-copy-subdir-files,*,vendor/droidx/fonts/prebuilt,$(TARGET_COPY_OUT_PRODUCT)/fonts) \
