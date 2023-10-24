@@ -19,7 +19,11 @@ PRODUCT_PACKAGES += \
     IconShapeIosOverlay \
     IconShapeLeafyOverlay \
     IconShapeRohieMeowOverlay \
-    IconShapeScrollOverlay
+    IconShapeScrollOverlay \
+    RiceBallsOverlay \
+    IconShapeSquircleOverlay \
+    IconShapePebbleOverlay \
+    IconShapeFlowerOverlay
 
 # Themes
 PRODUCT_PACKAGES += \
