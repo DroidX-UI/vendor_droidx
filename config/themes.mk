@@ -14,7 +14,40 @@
 # under the License.
 #
 
-# Icon shapes
+# System Icon Packs
+PRODUCT_PACKAGES += \
+    IconPackCircularAndroidOverlay \
+    IconPackCircularSystemUIOverlay \
+    IconPackVictorAndroidOverlay \
+    IconPackVictorSystemUIOverlay \
+    IconPackSamAndroidOverlay \
+    IconPackSamSystemUIOverlay \
+    IconPackKaiAndroidOverlay \
+    IconPackKaiSystemUIOverlay \
+    IconPackFilledAndroidOverlay \
+    IconPackFilledSystemUIOverlay \
+    IconPackPUIAndroidOverlay \
+    IconPackPUISystemUIOverlay \
+    IconPackRoundedAndroidOverlay \
+    IconPackRoundedSystemUIOverlay \
+    IconPackOOSAndroidOverlay \
+    IconPackOOSSystemUIOverlay \
+    IconPackOutlineAndroidOverlay \
+    IconPackOutlineSystemUIOverlay \
+    IconPackAcherusAndroidOverlay \
+    IconPackAcherusSystemUIOverlay \
+    IconPackXperiaAndroidOverlay \
+    IconPackXperiaSystemUIOverlay \
+    IconPackAuroraAndroidOverlay \
+    IconPackAuroraSystemUIOverlay \
+    IconPackGradiconAndroidOverlay \
+    IconPackGradiconSystemUIOverlay \
+    IconPackLornAndroidOverlay \
+    IconPackLornSystemUIOverlay \
+    IconPackPlumpySystemUIOverlay \
+    IconPackPlumpyAndroidOverlay
+
+# Icon Shapes
 PRODUCT_PACKAGES += \
     IconShapeIosOverlay \
     IconShapeLeafyOverlay \
