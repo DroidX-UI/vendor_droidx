@@ -198,6 +198,9 @@ PRODUCT_PACKAGES += \
 #BCR
 $(call inherit-product, vendor/bcr/bcr.mk)
 
+# Vendor Certification
+$(call inherit-product-if-exists, vendor/certification/config.mk)
+
 include vendor/droidx/config/version.mk
 include vendor/droidx/config/bootanimation.mk
 include vendor/droidx/config/telephony.mk
