@@ -188,6 +188,7 @@ PRODUCT_PACKAGES += \
     Aperture \
     Etar \
     Glimpse \
+    OmniJaws \
     Recorder \
     ExactCalculator \
     DroidXUIWallpaperStub \
