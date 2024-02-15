@@ -187,6 +187,7 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     Aperture \
     Etar \
+    Glimpse \
     Recorder \
     ExactCalculator \
     DroidXUIWallpaperStub \
