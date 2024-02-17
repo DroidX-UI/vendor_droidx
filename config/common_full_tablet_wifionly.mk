@@ -14,3 +14,5 @@ PRODUCT_ENFORCE_RRO_EXCLUDED_OVERLAYS += vendor/droidx/overlay/dictionaries
 # Settings
 PRODUCT_PRODUCT_PROPERTIES += \
     persist.settings.large_screen_opt.enabled=true
+
+$(call inherit-product, vendor/droidx/config/wifionly.mk)
