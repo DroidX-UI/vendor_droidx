@@ -204,6 +204,7 @@ PRODUCT_PACKAGES += \
     Recorder \
     ExactCalculator \
     DroidXUIWallpaperStub \
+    LatinIME \
 
 # Repainter integration
 PRODUCT_PACKAGES += \
