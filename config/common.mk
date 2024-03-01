@@ -116,6 +116,13 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     SimpleDeviceConfig
 
+# Updater
+PRODUCT_PACKAGES += \
+    Updater
+
+PRODUCT_COPY_FILES += \
+    vendor/droidx/prebuilt/common/etc/init/init.droidx-updater.rc:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/init/init.droidx-updater.rc
+
 # Extra tools in Lineage
 PRODUCT_PACKAGES += \
     bash \
