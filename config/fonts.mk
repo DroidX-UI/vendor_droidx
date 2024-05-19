@@ -14,12 +14,6 @@ PRODUCT_PACKAGES += \
     GeneralSans-Regular.ttf \
     GeneralSans-MediumItalic.ttf
 
-# Customization overlays
-PRODUCT_PACKAGES += \
-    FontGInterOverlay \
-    FontGoogleSansOverlay \
-    FontManropeOverlay \
-
 PRODUCT_PACKAGES += \
     GInterVF-Italic.ttf \
     GInterVF-Roman.ttf \
@@ -72,6 +66,21 @@ PRODUCT_PACKAGES += \
     dm-sans-latin-600-normal.ttf \
     dm-sans-latin-700-italic.ttf \
     dm-sans-latin-700-normal.ttf
+
+# Customization overlays
+PRODUCT_PACKAGES += \
+    FontGInterOverlay \
+    FontGoogleSansOverlay \
+    FontManropeOverlay \
+    FontAuthorOverlay \
+    CabinetGroteskOverlay \
+    DMSansOverlay \
+    EudoxusSansOverlay \
+    FixelOverlay \
+    SatoshiOverlay \
+    SpaceGroteskOverlay \
+    SwitzerOverlay \
+    UncutSansOverlay
 
 # Register vendor fonts
 PRODUCT_COPY_FILES += \
