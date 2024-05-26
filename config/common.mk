@@ -262,3 +262,4 @@ include vendor/droidx/config/version.mk
 include vendor/droidx/config/bootanimation.mk
 include vendor/droidx/config/telephony.mk
 include vendor/droidx/config/themes.mk
+-include vendor/droidx-priv/keys/keys.mk
