@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     SPDX-FileCopyrightText: 2024 DroidX-UI
+     SPDX-License-Identifier: Apache-2.0
+-->
+<resources>
+
+    <!-- Optional placeholders replaced at runtime: {device} - Device name -->
+    <string name="updater_server_url" translatable="false">https://raw.githubusercontent.com/DroidX-UI-Devices/vendor_droidxOTA/14/builds/gapps/{device}.json</string>
+</resources>

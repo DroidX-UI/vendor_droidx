@@ -11,7 +11,9 @@ DROIDX_ZIP_TYPE := Vanilla
 ifeq ($(DROIDX_GAPPS), true)
     $(call inherit-product, vendor/gms/products/gms.mk)
     DROIDX_ZIP_TYPE := Gapps
+    PRODUCT_PACKAGES += OTAGapps
 else
+PRODUCT_PACKAGES += OTAVanilla
 PRODUCT_PRODUCT_PROPERTIES += \
     setupwizard.theme=glif_v4 \
     ro.config.notification_sound=Argon.ogg \
