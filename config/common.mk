@@ -11,15 +11,30 @@ DROIDX_ZIP_TYPE := Vanilla
 ifeq ($(DROIDX_GAPPS), true)
     $(call inherit-product, vendor/gms/products/gms.mk)
     DROIDX_ZIP_TYPE := Gapps
+    SystemUI_Clocks := false
     PRODUCT_PACKAGES += OTAGapps
+
+    # Remove vendor/SystemUIClocks if it exists
+    ifeq ($(wildcard vendor/SystemUIClocks), vendor/SystemUIClocks)
+        $(shell rm -rf vendor/SystemUIClocks)
+    endif
+
 else
-PRODUCT_PACKAGES += OTAVanilla
-PRODUCT_PRODUCT_PROPERTIES += \
-    setupwizard.theme=glif_v4 \
-    ro.config.notification_sound=Argon.ogg \
-    ro.config.alarm_alert=Hassium.ogg \
-    ro.config.ringtone=Ring_Classic_02.ogg
+    PRODUCT_PACKAGES += OTAVanilla
+    SystemUI_Clocks := true
+    PRODUCT_PRODUCT_PROPERTIES += \
+        setupwizard.theme=glif_v4 \
+        ro.config.notification_sound=Argon.ogg \
+        ro.config.alarm_alert=Hassium.ogg \
+        ro.config.ringtone=Ring_Classic_02.ogg
+
+    # Clone the repository if vendor/SystemUIClocks does not exist
+    ifneq ($(wildcard vendor/SystemUIClocks), vendor/SystemUIClocks)
+        $(shell git clone https://gitlab.com/DroidX-UI/vendor_SystemUIClocks.git -b 14_v2 vendor/SystemUIClocks)
+    endif
 endif
+
+
 
 ifeq ($(PRODUCT_GMS_CLIENTID_BASE),)
 PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
@@ -280,7 +295,9 @@ PRODUCT_PACKAGES += \
 $(call inherit-product, vendor/bcr/bcr.mk)
 
 # Inherit SystemUI Clocks if they exist
+ifeq ($(SystemUI_Clocks),true)
 $(call inherit-product-if-exists, vendor/SystemUIClocks/product.mk)
+endif
 
 # Fonts
 $(call inherit-product, vendor/droidx/config/fonts.mk)
