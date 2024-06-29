@@ -1,7 +1,7 @@
 # Shebang is intentionally missing - do not run as a script
 
 # Override host metadata to make builds more reproducible and avoid leaking info
-export BUILD_USERNAME=earth
+export BUILD_USERNAME=eris
 export BUILD_HOSTNAME=droidx
 
 # ABI compatibility checks fail for several reasons:
@@ -16,4 +16,4 @@ export BUILD_HOSTNAME=droidx
 # overhead) just to update the ABI specs.
 #
 # For now, just skip the ABI checks to fix build errors.
-export SKIP_ABI_CHECKS=true
+# export SKIP_ABI_CHECKS=true

@@ -36,8 +36,8 @@ product = sys.argv[1]
 DEBUG = False
 
 custom_local_manifest = ".repo/local_manifests/droidx.xml"
-custom_default_revision = "14_v2"
-custom_default_revision =  os.getenv('ROOMSERVICE_DEFAULT_BRANCH', '14')
+custom_default_revision = "14_v3"
+custom_default_revision =  os.getenv('ROOMSERVICE_DEFAULT_BRANCH', '14_v3')
 custom_dependencies = "droidx.dependencies"
 org_manifest = "droidx-devices"  # leave empty if org is provided in manifest
 org_display = "DroidX-UI-Devices"  # needed for displaying
