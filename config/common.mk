@@ -312,6 +312,7 @@ PRODUCT_PACKAGES += \
     ExactCalculator \
     DroidXUIWallpaperStub \
     LatinIME \
+    TouchGestures \
 
 # Repainter integration
 PRODUCT_PACKAGES += \
