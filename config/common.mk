@@ -314,6 +314,7 @@ PRODUCT_PACKAGES += \
     ExactCalculator \
     DroidXUIWallpaperStub \
     LatinIME \
+    GameSpace \
 
 # Repainter integration
 PRODUCT_PACKAGES += \
