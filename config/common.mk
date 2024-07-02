@@ -313,6 +313,7 @@ PRODUCT_PACKAGES += \
     DroidXUIWallpaperStub \
     LatinIME \
     TouchGestures \
+    GameSpace
 
 # Repainter integration
 PRODUCT_PACKAGES += \
