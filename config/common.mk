@@ -190,12 +190,14 @@ PRODUCT_SYSTEM_EXT_PROPERTIES += \
 PRODUCT_COPY_FILES += \
     frameworks/native/data/etc/android.hardware.biometrics.face.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/android.hardware.biometrics.face.xml
 
+ifeq ($(filter-out OFFICIAL,$(DROIDX_BUILD_TYPE)),)
 # Updater
 PRODUCT_PACKAGES += \
     Updater
 
 PRODUCT_COPY_FILES += \
     vendor/droidx/prebuilt/common/etc/init/init.droidx-updater.rc:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/init/init.droidx-updater.rc
+endif
 
 # Extra tools in Lineage
 PRODUCT_PACKAGES += \
