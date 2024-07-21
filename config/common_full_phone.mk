@@ -1,5 +1,5 @@
 # Inherit full common DroidX-UI stuff
-$(call inherit-product, vendor/droidx/config/common_full.mk)
+$(call inherit-product, vendor/droidx/config/common_mobile_full.mk)
 
 # Required packages
 PRODUCT_PACKAGES += \
