@@ -6,6 +6,10 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     apns-conf.xml
 
+# Sensitive Phone Numbers list
+PRODUCT_PACKAGES += \
+    sensitive_pn.xml
+
 # Telephony packages
 PRODUCT_PACKAGES += \
     messaging \
