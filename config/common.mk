@@ -320,9 +320,6 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     RepainterServicePriv
 
-#BCR
-$(call inherit-product, vendor/bcr/bcr.mk)
-
 # Inherit SystemUI Clocks if they exist
 ifeq ($(SystemUI_Clocks),true)
 $(call inherit-product-if-exists, vendor/SystemUIClocks/product.mk)
@@ -336,3 +333,4 @@ include vendor/droidx/config/bootanimation.mk
 include vendor/droidx/config/telephony.mk
 include vendor/droidx/config/themes.mk
 -include vendor/droidx-priv/keys/keys.mk
+include vendor/prebuilds/prebuilds.mk
