@@ -1,7 +1,7 @@
 # Shebang is intentionally missing - do not run as a script
 
 # Override host metadata to make builds more reproducible and avoid leaking info
-export BUILD_USERNAME=eris
+export BUILD_USERNAME=mars
 export BUILD_HOSTNAME=droidx
 
 # ABI compatibility checks fail for several reasons:
