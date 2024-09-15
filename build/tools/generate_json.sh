@@ -42,6 +42,7 @@ if [ -f $existingOTAjson ]; then
         md5=`md5sum "$2/$3" | cut -d' ' -f1`
         sha256=`sha256sum "$2/$3" | cut -d' ' -f1`
         size=`stat -c "%s" "$2/$3"`
+        security_id=`grep -r ro.build.id $buildprop | cut -d "=" -f 2 | cut -d "." -f 2`
         buildtype=`grep -n "\"buildtype\"" $existingOTAjson | cut -d ":" -f 3 | sed 's/"//g' | sed 's/,//g' | xargs`
         forum=`grep -n "\"forum\"" $existingOTAjson | cut -d ":" -f 4 | sed 's/"//g' | sed 's/,//g' | xargs`
         if [ ! -z "$forum" ]; then
@@ -66,6 +67,7 @@ if [ -f $existingOTAjson ]; then
                         "md5": "'$md5'",
                         "sha256": "'$sha256'",
                         "size": '$size',
+                        "security_id": '$security_id',
                         "buildtype": "'$buildtype'",
                         "forum": "'$forum'",
                         "telegram": "'$telegram'"
@@ -83,6 +85,7 @@ else
         md5=`md5sum "$2/$3" | cut -d' ' -f1`
         sha256=`sha256sum "$2/$3" | cut -d' ' -f1`
         size=`stat -c "%s" "$2/$3"`
+        security_id=`grep -r ro.build.id $buildprop | cut -d "=" -f 2 | cut -d "." -f 2`
 
         echo '{
         "response": [
@@ -97,6 +100,7 @@ else
                         "md5": "'$md5'",
                         "sha256": "'$sha256'",
                         "size": '$size',
+                        "security_id": '$security_id',
                         "buildtype": "''",
                         "forum": "''",
                         "telegram": "''"
