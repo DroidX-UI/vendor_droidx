@@ -8,6 +8,3 @@ include hardware/qcom-caf/common/BoardConfigQcom.mk
 endif
 
 include vendor/droidx/config/BoardConfigSoong.mk
-
-# Certification
-include vendor/certification/BoardConfig.mk
