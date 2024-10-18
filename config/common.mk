@@ -3,8 +3,6 @@ $(call inherit-product-if-exists, vendor/extra/product.mk)
 
 PRODUCT_BRAND ?= DroidX-UI
 
-PRODUCT_BUILD_PROP_OVERRIDES += BUILD_UTC_DATE=0
-
 DROIDX_ZIP_TYPE := Vanilla
 
 # Gapps
