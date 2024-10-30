@@ -7,6 +7,7 @@ include vendor/droidx/config/aosp_audio.mk
 
 # Apps
 PRODUCT_PACKAGES += \
+    AvatarPicker \
     LatinIME \
 
 # Media
