@@ -16,3 +16,10 @@ prebuilt_etc_xml {
     src: "etc/sensitive_pn.xml",
     schema: ":spn-schema",
 }
+
+prebuilt_etc_xml {
+    name: "droidx-component-overrides.xml",
+    product_specific: true,
+    src: "etc/droidx-component-overrides.xml",
+    sub_dir: "sysconfig",
+}

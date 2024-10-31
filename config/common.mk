@@ -123,6 +123,10 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     frameworks/base/data/keyboards/Vendor_045e_Product_028e.kl:$(TARGET_COPY_OUT_PRODUCT)/usr/keylayout/Vendor_045e_Product_0719.kl
 
+# Component overrides
+PRODUCT_PACKAGES += \
+    droidx-component-overrides.xml
+
 # Google Photos Pixel Exclusive XML
 PRODUCT_COPY_FILES += \
     vendor/droidx/prebuilt/common/etc/sysconfig/pixel_2016_exclusive.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/sysconfig/pixel_2016_exclusive.xml
