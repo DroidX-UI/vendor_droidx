@@ -7,7 +7,7 @@ DROIDX_ZIP_TYPE := Vanilla
 
 # Gapps
 ifeq ($(DROIDX_GAPPS), true)
-    $(call inherit-product, vendor/gms/products/gms.mk)
+    #$(call inherit-product, vendor/gms/products/gms.mk)
     DROIDX_ZIP_TYPE := Gapps
     SystemUI_Clocks := false
     PRODUCT_PACKAGES += OTAGapps
@@ -28,7 +28,7 @@ else
 
     # Clone the repository if vendor/SystemUIClocks does not exist
     ifneq ($(wildcard vendor/SystemUIClocks), vendor/SystemUIClocks)
-        $(shell git clone "https://gitlab.com/DroidX-UI/vendor_SystemUIClocks.git" -b 14_v3 vendor/SystemUIClocks)
+        $(shell git clone "https://gitlab.com/DroidX-UI/vendor_SystemUIClocks.git" -b 15 vendor/SystemUIClocks)
     endif
 endif
 
@@ -319,12 +319,10 @@ PRODUCT_PACKAGES += \
     Aperture \
     Etar \
     Glimpse \
-    OmniJaws \
     Recorder \
     ExactCalculator \
     DroidXUIWallpaperStub \
     LatinIME \
-    GameSpace \
 
 # Repainter integration
 PRODUCT_PACKAGES += \

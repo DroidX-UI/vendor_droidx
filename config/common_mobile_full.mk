@@ -19,5 +19,5 @@ PRODUCT_PACKAGES += \
     FontRubikOverlay
 
 # Include Lineage LatinIME dictionaries
-PRODUCT_PACKAGE_OVERLAYS += vendor/lineage/overlay/dictionaries
+PRODUCT_PACKAGE_OVERLAYS += vendor/droidx/overlay/dictionaries
 PRODUCT_ENFORCE_RRO_EXCLUDED_OVERLAYS += vendor/droidx/overlay/dictionaries
