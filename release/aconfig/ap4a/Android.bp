@@ -18,6 +18,5 @@ aconfig_value_set {
     values: [
         "aconfig-values-ap4a-com.android.server.notification-all",
         "aconfig-values-ap4a-com.android.systemui.flags-all",
-        "aconfig-values-ap4a-com.android.settings.flags-all",
     ],
 }
