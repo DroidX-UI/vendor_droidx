@@ -17,6 +17,7 @@ ifeq ($(DROIDX_GAPPS), true)
     DROIDX_ZIP_TYPE := Gapps
     SystemUI_Clocks := false
     PRODUCT_PACKAGES += OTAGapps
+    $(call inherit-product, vendor/pixel-style/config/common.mk)
 
     # Remove vendor/SystemUIClocks if it exists
     ifeq ($(wildcard vendor/SystemUIClocks), vendor/SystemUIClocks)
