@@ -306,6 +306,10 @@ PRODUCT_PACKAGES += \
 
 PRODUCT_EXTRA_RECOVERY_KEYS += \
     vendor/droidx/build/target/product/security/droidx
+
+# TouchGestures
+PRODUCT_PACKAGES += \
+    TouchGestures
     
 # Themepicker
 PRODUCT_PACKAGES += \
