@@ -42,6 +42,22 @@ droidx_generator {
     ],
 }
 
+bootstrap_go_package {
+    name: "soong-droidx-mkdir",
+    pkgPath: "droidx/soong/mkdir",
+    deps: [
+        "blueprint",
+        "blueprint-pathtools",
+        "soong",
+        "soong-android",
+    ],
+    srcs: [
+        "mkdir/init.go",
+        "mkdir/mkdir.go",
+    ],
+    pluginFor: ["soong_build"],
+}
+
 cc_defaults {
     name: "generated_kernel_header_defaults",
     generated_headers: ["generated_kernel_includes"],
