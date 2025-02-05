@@ -88,14 +88,28 @@ PRODUCT_PACKAGES += \
 
 # Icon Shapes
 PRODUCT_PACKAGES += \
+    IconShapeCloudyOverlay \
+    IconShapeCylinderOverlay \
+    IconShapeFlowerOverlay \
+    IconShapeHeartOverlay \
+    IconShapeHexagonOverlay \
     IconShapeIosOverlay \
     IconShapeLeafyOverlay \
     IconShapeRohieMeowOverlay \
+    IconShapeLeafOverlay \
+    IconShapeMeowOverlay \
+    IconShapePebbleOverlay \
+    IconShapeRoundedHexagonOverlay \
+    IconShapeRoundedRectOverlay \
+    IconShapeSamsungOverlay \
     IconShapeScrollOverlay \
     RiceBallsOverlay \
+    IconShapeStretchedOverlay \
+    IconShapeSquareOverlay \
     IconShapeSquircleOverlay \
-    IconShapePebbleOverlay \
-    IconShapeFlowerOverlay
+    IconShapeTaperedRectOverlay \
+    IconShapeTeardropOverlay \
+    IconShapeVesselOverlay
 
 # Signal / WiFi Icons
 PRODUCT_PACKAGES += \
