@@ -311,6 +311,7 @@ PRODUCT_PACKAGE_OVERLAYS += \
 
 PRODUCT_PACKAGES += \
     NetworkStackOverlay \
+    PermissionControllerOverlay
 
 PRODUCT_EXTRA_RECOVERY_KEYS += \
     vendor/droidx/build/target/product/security/droidx
