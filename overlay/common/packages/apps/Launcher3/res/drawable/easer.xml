@@ -1,0 +1,95 @@
+<!--
+Copyright (C) 2024 Lawnchair Launcher
+
+   Licensed under the Apache License, Version 2.0 (the "License");
+    you may not use this file except in compliance with the License.
+    You may obtain a copy of the License at
+
+         http://www.apache.org/licenses/LICENSE-2.0
+
+    Unless required by applicable law or agreed to in writing, software
+    distributed under the License is distributed on an "AS IS" BASIS,
+    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+    See the License for the specific language governing permissions and
+    limitations under the License.
+-->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="192dp"
+    android:height="192dp"
+    android:viewportWidth="192"
+    android:viewportHeight="192">
+  <path
+      android:pathData="M101.952,58.837c-31.762,4.905 -28.04,-19.642 -28.04,-36.837 17.782,0.05 37.726,-0.02 55.511,0.034 0,18.592 3.766,31.619 -27.471,36.805z"
+      android:strokeLineJoin="round"
+      android:strokeWidth="11.999517"
+      android:fillColor="#00000000"
+      android:strokeColor="#000"/>
+  <group>
+    <clip-path
+        android:pathData="M66.442,22.101l71.039,0l0,36.025l-71.039,0zM111.961,40.114a10.005,10 90.004,0 0,-19.999 0,10.005 10,90.004 0,0 19.999,0"/>
+    <path
+        android:pathData="M78.437,40.114l47.047,0"
+        android:strokeWidth="11.999555"
+        android:fillColor="#00000000"
+        android:strokeColor="#000"/>
+  </group>
+  <group>
+    <clip-path
+        android:pathData="M50.926,48.339l65.733,0l0,66.051l-65.733,0zM68.417,98.896a5.898,5.891 89.998,0 0,-11.782 0,5.898 5.891,89.998 0,0 11.782,0"/>
+    <path
+        android:pathData="M100.842,59s3.929,26.382 -38.316,39.896"
+        android:strokeWidth="11.999776"
+        android:fillColor="#00000000"
+        android:strokeColor="#000"/>
+  </group>
+  <group>
+    <clip-path
+        android:pathData="M68.918,57.191l80.272,0l0,123.71l-80.271,0zM87.782,166.047a5.898,5.891 89.998,0 0,-11.782 0,5.898 5.891,89.998 0,0 11.782,0"/>
+    <path
+        android:pathData="M98.098,72.724s89.726,26.431 -16.207,93.323"
+        android:strokeWidth="11.999776"
+        android:fillColor="#00000000"
+        android:strokeColor="#000"/>
+  </group>
+  <group>
+    <clip-path
+        android:pathData="M56.899,67.112l72.251,0l0,67.714L56.899,134.825zM75.344,119.731a5.898,5.891 89.998,0 0,-11.782 0,5.898 5.891,89.998 0,0 11.782,0"/>
+    <path
+        android:pathData="M114.265,80.026s-14.653,23.902 -44.812,39.705"
+        android:strokeWidth="11.999776"
+        android:fillColor="#00000000"
+        android:strokeColor="#000"/>
+  </group>
+  <group>
+    <clip-path
+        android:pathData="M55.692,78.663l87.051,0l0,78.895l-87.051,0zM73.712,142.26a5.898,5.891 89.998,0 0,-11.782 0,5.898 5.891,89.998 0,0 11.782,0"/>
+    <path
+        android:pathData="M127.933,91.702s-22.234,34.376 -60.112,50.558"
+        android:strokeWidth="11.999776"
+        android:fillColor="#00000000"
+        android:strokeColor="#000"/>
+  </group>
+  <path
+      android:pathData="M95.964,40.111a6.006,6 89.999,1 0,12 0a6.006,6 89.999,1 0,-12 0z"
+      android:fillColor="#000"/>
+  <path
+      android:pathData="M55.58,98.897a6.955,6.949 90,1 0,13.899 0a6.955,6.949 90,1 0,-13.899 0z"
+      android:strokeWidth="5.9997587"
+      android:fillColor="#00000000"
+      android:strokeColor="#000"/>
+  <path
+      android:pathData="M62.508,119.731a6.955,6.949 90,1 0,13.899 0a6.955,6.949 90,1 0,-13.899 0z"
+      android:strokeWidth="5.9997587"
+      android:fillColor="#00000000"
+      android:strokeColor="#000"/>
+  <path
+      android:pathData="M60.875,142.261a6.955,6.949 90,1 0,13.899 0a6.955,6.949 90,1 0,-13.899 0z"
+      android:strokeWidth="5.9997587"
+      android:fillColor="#00000000"
+      android:strokeColor="#000"/>
+  <path
+      android:pathData="M74.945,166.047a6.955,6.949 90,1 0,13.899 0a6.955,6.949 90,1 0,-13.899 0z"
+      android:strokeWidth="5.9997587"
+      android:fillColor="#00000000"
+      android:strokeColor="#000"/>
+</vector>

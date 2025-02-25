@@ -1,0 +1,29 @@
+<!--
+Copyright (C) 2024 Lawnchair Launcher
+
+   Licensed under the Apache License, Version 2.0 (the "License");
+    you may not use this file except in compliance with the License.
+    You may obtain a copy of the License at
+
+         http://www.apache.org/licenses/LICENSE-2.0
+
+    Unless required by applicable law or agreed to in writing, software
+    distributed under the License is distributed on an "AS IS" BASIS,
+    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+    See the License for the specific language governing permissions and
+    limitations under the License.
+-->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="192dp"
+    android:height="192dp"
+    android:viewportWidth="192"
+    android:viewportHeight="192">
+  <path
+      android:pathData="M129.734,93.742l0,21.985a14.719,14.719 84.161,0 1,-7.376 12.745l-58.816,33.781a14.804,14.804 45.287,0 1,-14.753 0l-19.424,-11.162a14.719,14.719 59.424,0 1,-7.376 -12.749l0,-21.006a14.761,14.761 79.634,0 1,7.368 -12.762l59.479,-34.385a14.761,14.761 95.433,0 1,14.736 -0.013l18.79,10.814a14.719,14.719 60.799,0 1,7.372 12.753m0,21.985l0,-68.179a14.761,14.761 64.351,0 0,-7.364 -12.766l-18.641,-10.788a14.804,14.804 56.058,0 0,-14.757 -0.047l-18.82,10.72a14.634,14.634 89.947,0 0,-7.393 12.719l0,68.302a14.506,14.506 131.433,0 0,7.423 12.664l19.079,10.69a15.017,15.017 81.166,0 0,14.804 -0.077l18.292,-10.499a14.676,14.676 84.733,0 0,7.376 -12.741m40.256,1.195l0,21.623a14.761,14.761 79.749,0 1,-7.368 12.766l-18.705,10.814a14.804,14.804 90.506,0 1,-14.753 0.034l-59.02,-33.743a14.676,14.676 55.757,0 1,-7.385 -12.728l0,-21.921a14.761,14.761 79.634,0 1,7.368 -12.766l18.709,-10.818a14.761,14.761 95.433,0 1,14.736 -0.013l59.046,33.998a14.719,14.719 60.799,0 1,7.372 12.753z"
+      android:strokeLineJoin="round"
+      android:strokeWidth="12.000024"
+      android:fillColor="#00000000"
+      android:strokeColor="#000"
+      android:fillType="evenOdd"
+      android:strokeLineCap="round"/>
+</vector>

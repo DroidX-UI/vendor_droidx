@@ -19,7 +19,11 @@ ifeq ($(DROIDX_GAPPS), true)
     $(call inherit-product, vendor/pixel-style/config/common.mk)
 
 else
-    PRODUCT_PACKAGES += OTAVanilla
+    PRODUCT_PACKAGES += \
+    OTAVanilla \
+    DXUILauncherQuickStep \
+    DXUILauncherOverlay
+    
     PRODUCT_PRODUCT_PROPERTIES += \
         setupwizard.theme=glif_v4 \
         ro.config.notification_sound=Argon.ogg \
@@ -284,7 +288,11 @@ PRODUCT_PRODUCT_PROPERTIES += \
 
 # SystemUI
 PRODUCT_DEXPREOPT_SPEED_APPS += \
-    SystemUI
+    SystemUI \
+    Settings \
+    NexusLauncherRelease \
+    DerpLauncherQuickStep \
+
 
 PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
     dalvik.vm.systemuicompilerfilter=speed

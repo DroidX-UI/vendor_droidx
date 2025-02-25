@@ -1,0 +1,51 @@
+<!--
+Copyright (C) 2024 Lawnchair Launcher
+
+   Licensed under the Apache License, Version 2.0 (the "License");
+    you may not use this file except in compliance with the License.
+    You may obtain a copy of the License at
+
+         http://www.apache.org/licenses/LICENSE-2.0
+
+    Unless required by applicable law or agreed to in writing, software
+    distributed under the License is distributed on an "AS IS" BASIS,
+    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+    See the License for the specific language governing permissions and
+    limitations under the License.
+-->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="192dp"
+    android:height="192dp"
+    android:viewportWidth="50.8"
+    android:viewportHeight="50.8">
+  <path
+      android:pathData="M24.3454,11.119m-3.8785,0a3.8785,3.8785 0,1 1,7.7571 0a3.8785,3.8785 0,1 1,-7.7571 0"
+      android:strokeWidth="2.1172202"
+      android:fillColor="#00000000"
+      android:strokeColor="#000"/>
+  <path
+      android:pathData="M41.629,20.344m-3.8785,0a3.8785,3.8785 0,1 1,7.7571 0a3.8785,3.8785 0,1 1,-7.7571 0"
+      android:strokeWidth="2.1172202"
+      android:fillColor="#00000000"
+      android:strokeColor="#000"/>
+  <path
+      android:pathData="M34.7762,37.1386m-3.8785,0a3.8785,3.8785 0,1 1,7.7571 0a3.8785,3.8785 0,1 1,-7.7571 0"
+      android:strokeWidth="2.1172202"
+      android:fillColor="#00000000"
+      android:strokeColor="#000"/>
+  <path
+      android:pathData="M15.7222,39.6994m-3.8785,0a3.8785,3.8785 0,1 1,7.7571 0a3.8785,3.8785 0,1 1,-7.7571 0"
+      android:strokeWidth="2.1172202"
+      android:fillColor="#00000000"
+      android:strokeColor="#000"/>
+  <path
+      android:pathData="M9.171,23.1307m-3.8785,0a3.8785,3.8785 0,1 1,7.7571 0a3.8785,3.8785 0,1 1,-7.7571 0"
+      android:strokeWidth="2.1172202"
+      android:fillColor="#00000000"
+      android:strokeColor="#000"/>
+  <path
+      android:pathData="M28.6766,10.7046s7.4556,0.1512 10.9188,5.7992m2.1092,7.9073s-0.8277,5.6479 -4.0671,9.1877m-6.4767,5.1963s-6.024,3.2383 -12.049,1.6575m-6.5523,-3.2383s-4.3685,-3.5398 -3.7656,-10.2433m2.6364,-7.38s3.1627,-5.2719 8.9619,-7.1542"
+      android:strokeWidth="3.1758301"
+      android:fillColor="#00000000"
+      android:strokeColor="#000"/>
+</vector>

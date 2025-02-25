@@ -1,0 +1,42 @@
+<!--
+Copyright (C) 2024 Lawnchair Launcher
+
+   Licensed under the Apache License, Version 2.0 (the "License");
+    you may not use this file except in compliance with the License.
+    You may obtain a copy of the License at
+
+         http://www.apache.org/licenses/LICENSE-2.0
+
+    Unless required by applicable law or agreed to in writing, software
+    distributed under the License is distributed on an "AS IS" BASIS,
+    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+    See the License for the specific language governing permissions and
+    limitations under the License.
+-->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="192dp"
+    android:height="192dp"
+    android:viewportWidth="192"
+    android:viewportHeight="192">
+  <path
+      android:pathData="M140.453,161.254c13.895,-9.355 40.02,-115.875 25.06,-130.123C144.02,10.661 21.768,79.986 22.001,97.864c0.45,34.543 95.312,78.968 118.452,63.39"
+      android:strokeLineJoin="round"
+      android:strokeWidth="12.0002"
+      android:fillColor="#00000000"
+      android:strokeColor="#000"
+      android:strokeLineCap="round"/>
+  <path
+      android:pathData="M99.11,102.536c-5.449,-5.524 -3.918,-10.442 5.032,-17.257 9.586,-7.3 21.08,-16.747 25.946,-20.393 5.257,-3.938 9.133,-5.307 11.252,-3.652 2.822,2.206 1.446,4.554 -4.03,11.528 -2.68,3.411 -22.98,24.88 -22.98,24.88 -5.823,6.105 -10.455,9.726 -15.22,4.894"
+      android:strokeLineJoin="round"
+      android:strokeWidth="10"
+      android:fillColor="#00000000"
+      android:strokeColor="#000"
+      android:strokeLineCap="round"/>
+  <path
+      android:pathData="M78.955,121.805c-7.086,-2.704 -12.019,-9.525 -6.887,-9.525 2.003,0 4.542,-2.915 5.446,-6.254 3.488,-12.87 22.877,-10.543 22.877,2.744 0,10.662 -10.662,17.145 -21.436,13.035"
+      android:strokeLineJoin="round"
+      android:strokeWidth="10"
+      android:fillColor="#00000000"
+      android:strokeColor="#000"
+      android:strokeLineCap="round"/>
+</vector>

@@ -1,0 +1,28 @@
+<!--
+Copyright (C) 2024 Lawnchair Launcher
+
+   Licensed under the Apache License, Version 2.0 (the "License");
+    you may not use this file except in compliance with the License.
+    You may obtain a copy of the License at
+
+         http://www.apache.org/licenses/LICENSE-2.0
+
+    Unless required by applicable law or agreed to in writing, software
+    distributed under the License is distributed on an "AS IS" BASIS,
+    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+    See the License for the specific language governing permissions and
+    limitations under the License.
+-->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="192dp"
+    android:height="192dp"
+    android:viewportWidth="7680"
+    android:viewportHeight="7680">
+  <path
+      android:pathData="M886,6638.41h5250.21zM2189.56,5646.02q-535.83,-2.12 -918.86,-382.2a1865,1865 0,0 1,-8.48 -8.48q-380.08,-383.03 -382.2,-918.86c-0.01,-3.31 -0.01,-8.69 -0.01,-12L880,1113.71a72.13,72.13 135,0 1,72.13 -72.13h5184.09c3.31,0 8.69,-0 12,0.02q264.5,2.09 454.3,188.97a935,935 0,0 1,8.48 8.48q186.88,189.8 188.97,454.3c0.03,3.31 0.02,8.69 0.02,12v974.66c0,3.31 0,8.69 -0.02,12q-2.09,264.5 -188.97,454.3a935,935 0,0 1,-8.48 8.48q-189.8,186.88 -454.3,188.97c-3.31,0.03 -8.69,-0.02 -12,-0.03 -44.56,-0.08 -326.26,5 -470.27,143.53a397,397 0,0 0,-8.49 8.48c-214.34,221.82 -178.45,765.73 -173.51,828.73 0.26,3.3 0.5,8.67 0.48,11.98q-1.9,482.13 -309.81,840.55c-47.19,40.54 -118.64,111.99 -159.18,159.18q-358.42,307.91 -840.55,309.81c-3.31,0.01 -8.69,0.01 -12,0.01L2201.56,5646.03c-3.31,0 -8.69,0 -12,-0.01z"
+      android:strokeLineJoin="round"
+      android:strokeWidth="480.008"
+      android:fillColor="#00000000"
+      android:strokeColor="#000"
+      android:strokeLineCap="round"/>
+</vector>

@@ -1,0 +1,35 @@
+<!--
+Copyright (C) 2024 Lawnchair Launcher
+
+   Licensed under the Apache License, Version 2.0 (the "License");
+    you may not use this file except in compliance with the License.
+    You may obtain a copy of the License at
+
+         http://www.apache.org/licenses/LICENSE-2.0
+
+    Unless required by applicable law or agreed to in writing, software
+    distributed under the License is distributed on an "AS IS" BASIS,
+    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+    See the License for the specific language governing permissions and
+    limitations under the License.
+-->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="192dp"
+    android:height="192dp"
+    android:viewportWidth="50.8"
+    android:viewportHeight="50.8">
+  <path
+      android:pathData="M15.7633,34.0439a4.9449,4.9689 90.0003,0 1,-4.9688 4.9449A4.9449,4.9689 90.0003,0 1,5.8256 34.0439a4.9449,4.9689 90.0003,0 1,4.9689 -4.9448,4.9449 4.9689,90.0003 0,1 4.9688,4.9448"
+      android:strokeLineJoin="round"
+      android:strokeWidth="3.1749055"
+      android:fillColor="#00000000"
+      android:strokeColor="#000"
+      android:strokeLineCap="round"/>
+  <path
+      android:pathData="M18.3102,11.9291a0.5081,0.506 90.0001,0 0,-0.7148 -0.1707,6.3389 6.3124,90.0003 0,0 -2.4672,3.0487q-0.0368,0.0974 -0.0697,0.1941a6.0932,6.0676 89.9997,0 0,0.5273 5.0058l10.6644,18.542a0.5081,0.506 90.0001,0 0,0.6932 0.1844,5.7684 5.7443,90.0002 0,0 1.9609,-1.8608c0.7687,-1.2027 0.9279,-2.4885 0.8586,-3.566a7.3043,7.2737 89.9997,0 0,-0.9794 -3.1753zM33.5067,12.2462a0.5081,0.506 90.0001,0 0,-0.7148 -0.1707,6.3391 6.3126,89.9996 0,0 -2.4673,3.0487q-0.0368,0.0974 -0.0697,0.1941A6.0932,6.0678 90.0001,0 0,30.7825 20.324l10.6647,18.5423a0.5081,0.506 90.0001,0 0,0.6931 0.1843,5.7684 5.7444,89.9998 0,0 1.961,-1.8608c0.7687,-1.2027 0.9279,-2.4885 0.8586,-3.566a7.3043,7.2739 89.9997,0 0,-0.9794 -3.1753z"
+      android:strokeLineJoin="round"
+      android:strokeWidth="3.1749055"
+      android:fillColor="#00000000"
+      android:strokeColor="#000"
+      android:strokeLineCap="round"/>
+</vector>
