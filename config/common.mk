@@ -338,6 +338,8 @@ PRODUCT_PACKAGES += \
     ExactCalculator \
     DroidXUIWallpaperStub \
     LatinIME \
+    LMOFreeform \
+    LMOFreeformSidebar \
 
 # Repainter integration
 PRODUCT_PACKAGES += \
