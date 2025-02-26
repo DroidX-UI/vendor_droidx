@@ -324,6 +324,11 @@ PRODUCT_PACKAGES += \
     ThemePicker \
     ThemesStub
 
+# DroidX-UI Framework
+PRODUCT_PACKAGES += \
+    DroidXManifest \
+    framework-droidx
+
 # Apps
 PRODUCT_PACKAGES += \
     Aperture \
