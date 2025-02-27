@@ -356,6 +356,9 @@ $(call inherit-product-if-exists, vendor/SystemUIClocks/product.mk)
 # Fonts
 $(call inherit-product, vendor/droidx/config/fonts.mk)
 
+# Include certification
+$(call inherit-product-if-exists, vendor/certification/config.mk)
+
 include vendor/droidx/config/version.mk
 include vendor/droidx/config/bootanimation.mk
 include vendor/droidx/config/telephony.mk
