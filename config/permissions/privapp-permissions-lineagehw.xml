@@ -9,4 +9,8 @@
         <permission name="lineageos.permission.HARDWARE_ABSTRACTION_ACCESS" />
         <permission name="lineageos.permission.MANAGE_LIVEDISPLAY" />
     </privapp-permissions>
+
+    <privapp-permissions package="com.android.launcher3">
+        <permission name="com.libremobileos.permission.START_FREEFORM"/>
+    </privapp-permissions>
 </permissions>
