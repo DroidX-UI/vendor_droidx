@@ -1,6 +1,6 @@
 flag_value {
   package: "com.android.server.notification"
-  name: "cross_app_polite_notifications"
+  name: "notification_hide_unused_channels"
   state: ENABLED
-  permission: READ_WRITE
+  permission: READ_ONLY
 }

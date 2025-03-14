@@ -1,6 +1,6 @@
 flag_value {
   package: "com.android.server.notification"
-  name: "reject_old_notifications"
+  name: "all_notifs_need_ttl"
   state: ENABLED
-  permission: READ_WRITE
+  permission: READ_ONLY
 }
