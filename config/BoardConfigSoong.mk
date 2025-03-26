@@ -68,7 +68,6 @@ SOONG_CONFIG_droidxNvidiaVars += \
 
 SOONG_CONFIG_NAMESPACES += droidxQcomVars
 SOONG_CONFIG_droidxQcomVars += \
-    supports_extended_compress_format \
     uses_pre_uplink_features_netmgrd
 
 # Only create display_headers_namespace var if dealing with UM platforms to avoid breaking build for all other platforms
@@ -85,7 +84,6 @@ SOONG_CONFIG_droidxGlobalVars_gralloc_handle_has_ubwcp_format := $(TARGET_GRALLO
 SOONG_CONFIG_droidxGlobalVars_target_alternative_futex_waiters := $(TARGET_ALTERNATIVE_FUTEX_WAITERS)
 SOONG_CONFIG_droidxGlobalVars_uses_egl_display_array := $(TARGET_USES_EGL_DISPLAY_ARRAY)
 SOONG_CONFIG_droidxNvidiaVars_uses_nvidia_enhancements := $(NV_ANDROID_FRAMEWORK_ENHANCEMENTS)
-SOONG_CONFIG_droidxQcomVars_supports_extended_compress_format := $(AUDIO_FEATURE_ENABLED_EXTENDED_COMPRESS_FORMAT)
 SOONG_CONFIG_droidxQcomVars_uses_pre_uplink_features_netmgrd := $(TARGET_USES_PRE_UPLINK_FEATURES_NETMGRD)
 SOONG_CONFIG_droidxGlobalVars_uses_oplus_camera := $(TARGET_USES_OPLUS_CAMERA)
 SOONG_CONFIG_droidxGlobalVars_uses_nothing_camera := $(TARGET_USES_NOTHING_CAMERA)
