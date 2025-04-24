@@ -29,7 +29,6 @@ $(foreach v,$(EXPORT_TO_SOONG),$(eval $(call addVar,$(v))))
 SOONG_CONFIG_NAMESPACES += droidxGlobalVars
 SOONG_CONFIG_droidxGlobalVars += \
     additional_gralloc_10_usage_bits \
-    camera_override_format_from_reserved \
     target_alternative_futex_waiters \
     uses_oplus_camera \
     uses_nothing_camera \
@@ -38,7 +37,6 @@ SOONG_CONFIG_droidxGlobalVars += \
 
 
 # Soong bool variables
-SOONG_CONFIG_droidxGlobalVars_camera_override_format_from_reserved := $(TARGET_CAMERA_OVERRIDE_FORMAT_FROM_RESERVED)
 SOONG_CONFIG_droidxGlobalVars_target_alternative_futex_waiters := $(TARGET_ALTERNATIVE_FUTEX_WAITERS)
 SOONG_CONFIG_droidxGlobalVars_uses_oplus_camera := $(TARGET_USES_OPLUS_CAMERA)
 SOONG_CONFIG_droidxGlobalVars_uses_nothing_camera := $(TARGET_USES_NOTHING_CAMERA)
@@ -47,10 +45,14 @@ SOONG_CONFIG_droidxGlobalVars_include_miui_camera := $(TARGET_INCLUDES_MIUI_CAME
 
 # Set default values
 TARGET_ADDITIONAL_GRALLOC_10_USAGE_BITS ?= 0
-TARGET_CAMERA_OVERRIDE_FORMAT_FROM_RESERVED ?= false
 
 # Soong value variables
 SOONG_CONFIG_droidxGlobalVars_additional_gralloc_10_usage_bits := $(TARGET_ADDITIONAL_GRALLOC_10_USAGE_BITS)
+
+# Camera
+ifneq ($(TARGET_CAMERA_OVERRIDE_FORMAT_FROM_RESERVED),)
+    $(call soong_config_set,camera,override_format_from_reserved,$(TARGET_CAMERA_OVERRIDE_FORMAT_FROM_RESERVED))
+endif
 
 # Lineage Health HAL
 ifneq ($(TARGET_HEALTH_CHARGING_CONTROL_CHARGING_PATH),)
