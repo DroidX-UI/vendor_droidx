@@ -129,27 +129,6 @@ target_alternative_futex_waiters {
 }
 
 soong_config_module_type {
-    name: "bootloader_message_offset",
-    module_type: "cc_defaults",
-    config_namespace: "droidxGlobalVars",
-    value_variables: ["bootloader_message_offset"],
-    properties: [
-        "cflags",
-        "export_cflags",
-    ],
-}
-
-bootloader_message_offset {
-    name: "bootloader_message_offset_defaults",
-    soong_config_variables: {
-        bootloader_message_offset: {
-            cflags: ["-DBOARD_RECOVERY_BLDRMSG_OFFSET=%s"],
-            export_cflags: ["-DBOARD_RECOVERY_BLDRMSG_OFFSET=%s"],
-        },
-    },
-}
-
-soong_config_module_type {
     name: "uses_oplus_camera",
     module_type: "cc_defaults",
     config_namespace: "droidxGlobalVars",

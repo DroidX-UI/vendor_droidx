@@ -29,7 +29,6 @@ $(foreach v,$(EXPORT_TO_SOONG),$(eval $(call addVar,$(v))))
 SOONG_CONFIG_NAMESPACES += droidxGlobalVars
 SOONG_CONFIG_droidxGlobalVars += \
     additional_gralloc_10_usage_bits \
-    bootloader_message_offset \
     camera_override_format_from_reserved \
     target_alternative_futex_waiters \
     uses_oplus_camera \
@@ -47,13 +46,11 @@ SOONG_CONFIG_droidxGlobalVars_uses_miui_camera := $(TARGET_USES_MIUI_CAMERA)
 SOONG_CONFIG_droidxGlobalVars_include_miui_camera := $(TARGET_INCLUDES_MIUI_CAMERA)
 
 # Set default values
-BOOTLOADER_MESSAGE_OFFSET ?= 0
 TARGET_ADDITIONAL_GRALLOC_10_USAGE_BITS ?= 0
 TARGET_CAMERA_OVERRIDE_FORMAT_FROM_RESERVED ?= false
 
 # Soong value variables
 SOONG_CONFIG_droidxGlobalVars_additional_gralloc_10_usage_bits := $(TARGET_ADDITIONAL_GRALLOC_10_USAGE_BITS)
-SOONG_CONFIG_droidxGlobalVars_bootloader_message_offset := $(BOOTLOADER_MESSAGE_OFFSET)
 
 # Lineage Health HAL
 ifneq ($(TARGET_HEALTH_CHARGING_CONTROL_CHARGING_PATH),)
@@ -106,6 +103,11 @@ endif
 # Power HAL
 ifneq ($(TARGET_POWER_LIBPERFMGR_MODE_EXTENSION_LIB),)
     $(call soong_config_set,power_libperfmgr,mode_extension_lib,$(TARGET_POWER_LIBPERFMGR_MODE_EXTENSION_LIB))
+endif
+
+# Recovery
+ifneq ($(BOOTLOADER_MESSAGE_OFFSET),)
+    $(call soong_config_set,lineage_recovery,bootloader_message_offset,$(BOOTLOADER_MESSAGE_OFFSET))
 endif
 
 # Surfaceflinger
