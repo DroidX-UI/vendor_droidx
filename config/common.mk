@@ -158,7 +158,8 @@ DROIDX_VERSION_APPEND_TIME_OF_DAY ?= true
 EXTRA_UDFPS_ANIMATIONS ?= false
 ifeq ($(EXTRA_UDFPS_ANIMATIONS),true)
 PRODUCT_PACKAGES += \
-    UdfpsResources
+    UdfpsAnimations \
+    UdfpsIcons
 endif
 
 ifneq ($(TARGET_DISABLE_EPPE),true)
