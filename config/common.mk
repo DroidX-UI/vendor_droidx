@@ -306,7 +306,6 @@ PRODUCT_DEXPREOPT_SPEED_APPS += \
     SystemUI \
     Settings \
     NexusLauncherRelease \
-    DerpLauncherQuickStep \
 
 
 PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \

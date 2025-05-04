@@ -16,8 +16,7 @@
 
 # Themes
 PRODUCT_PACKAGES += \
-    AndroidBlackThemeOverlay \
-    A11QSUI
+    AndroidBlackThemeOverlay
 
 # System Icon Packs
 PRODUCT_PACKAGES += \
