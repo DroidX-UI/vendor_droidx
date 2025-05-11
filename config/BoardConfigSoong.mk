@@ -15,16 +15,8 @@ EXPORT_TO_SOONG := \
 # Documentation here:
 # https://github.com/DroidX-UI/android_build_soong/commit/8328367c44085b948c003116c0ed74a047237a69
 
-SOONG_CONFIG_NAMESPACES += droidxVarsPlugin
-
-SOONG_CONFIG_droidxVarsPlugin :=
-
-define addVar
-  SOONG_CONFIG_droidxVarsPlugin += $(1)
-  SOONG_CONFIG_droidxVarsPlugin_$(1) := $($1)
-endef
-
-$(foreach v,$(EXPORT_TO_SOONG),$(eval $(call addVar,$(v))))
+$(call add_soong_config_namespace,droidxVarsPlugin)
+$(foreach v,$(EXPORT_TO_SOONG),$(eval $(call add_soong_config_var,droidxVarsPlugin,$(v))))
 
 SOONG_CONFIG_NAMESPACES += droidxGlobalVars
 SOONG_CONFIG_droidxGlobalVars += \
