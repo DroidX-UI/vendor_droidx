@@ -182,6 +182,10 @@ PRODUCT_PACKAGES += \
     SimpleDeviceConfig \
     SimpleSettingsConfig
 
+# GameSpace
+PRODUCT_PACKAGES += \
+    GameSpace
+
 # Face Unlock
 PRODUCT_PACKAGES += \
     FaceUnlock
